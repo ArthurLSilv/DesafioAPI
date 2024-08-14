@@ -1,0 +1,71 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.App h1 {
+  font-size: 2rem;
+  color: #00796b; 
+  margin-bottom: 20px;
+}
+
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.character-card {
+  border: 2px solid #004d40; 
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.character-card img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 2px solid #004d40; 
+  margin-bottom: 10px;
+}
+
+.character-card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #00796b; 
+}
+
+.character-card p {
+  margin: 5px 0;
+  color: #004d40; 
+}
+
+.character-card p strong {
+  color: #00796b; 
+}
+
+.loading, .error {
+  font-size: 1.2rem;
+  color: #00796b; 
+}
+
+.error {
+  color: #d32f2f; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
